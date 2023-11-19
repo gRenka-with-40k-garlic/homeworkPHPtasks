@@ -35,13 +35,3 @@
 </html>
 
 
-<!--
-с выводом url есть сложности
-<php
-$url = "https://fjjf/$City/";
-echo'
-<a href="'.$url.'">
-  '.$City.'
-</a>
-';
--->

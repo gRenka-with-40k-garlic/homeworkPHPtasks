@@ -1,7 +1,7 @@
 <?php
 //Дана строка. Вырежите и выведите на экран последние 3 символа этой строки.
 
-$string = "it's a string";
+$string = "string string string";
 ?>
 
 <h1>Дана строка: <?php echo $string; ?></h1>

@@ -12,7 +12,7 @@
     <title>TASK4</title>
 </head>
 <body>
-    <form action="Task4 x.php" method="get">
+    <form action="Task4.php" method="get">
         <input name="City" type="text"/>
         <button type="submit">Send</button>
     </form>
@@ -20,15 +20,15 @@
     <hr>
 
     <?php if (isset($_GET["first_name"])): ?>
-        <h1>ИМЯ: <?php echo $_GET["first_name"] ?></h1>
+        <h1>Имя: <?php echo $_GET["first_name"] ?></h1>
     <?php endif; ?>
 
     <?php if (isset($_GET["age"])): ?>
-        <h1>ВОЗВРАСТ: <?php echo $_GET["age"] ?></h1>
+        <h1>Возвраст: <?php echo $_GET["age"] ?></h1>
     <?php endif; ?>
 
     <?php if (isset($_GET["City"])): ?>
-        <h1>ГОРОД ПРОЖИВАНИЯ: <?php echo $_GET["City"] ?></h1>
+        <h1>Город: <?php echo $_GET["City"] ?></h1>
     <?php endif; ?>
 
 </body>

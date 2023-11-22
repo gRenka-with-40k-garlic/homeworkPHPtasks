@@ -3,11 +3,32 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>HomeworkTasks</title>
+
+
+    <style>
+        button
+        {
+            text-align: center;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;
+            box-shadow: 0 0 20px #eee;
+            border-radius: 5px;
+            background-image: linear-gradient(to right, #00FFFF 0%, #7B68EE 51%, #0B63F6 100%);
+        }
+        button:hover
+        {
+            background-position: right center;
+        }
+    </style>
 </head>
 <body>
+
+
 <button onclick="document.location.href = 'Task3.php';">Задание 3</button><br>
 <button onclick="document.location.href = 'Task4.php';">Задание 4</button><br>
 <button onclick="document.location.href = 'Task5.php';">Задание 5</button><br>

@@ -7,9 +7,10 @@ $str = '';
 $len = rand(1, 20);
 $sourseString = 'cmtitoptnbvzurbahfywweprbekjr';
 
-for ($i = 0; $i < $len; $i++) {
+for ($i = 0; $i < $len; $i++)
+{
     $RandFill = rand(0, strlen($sourseString) - 1);
     $str .= $sourseString[$RandFill];
 }
-?> <h1><?php echo "Длина строки: " . $len . "\n";
-    echo $str; ?> </h1>
+?><h1><?php echo "Длина строки: " . $len . "\n";
+echo $str; ?> </h1>

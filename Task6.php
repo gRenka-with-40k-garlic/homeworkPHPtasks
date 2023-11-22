@@ -6,4 +6,5 @@
 $c = 15;
 $d =2;
 $result = $c + $d;
-echo $result;
+
+?><h1><?php echo $result; ?></h1>

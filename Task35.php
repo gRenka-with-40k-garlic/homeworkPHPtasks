@@ -1,6 +1,7 @@
 <?php
 //Даны два числа 4 и 6. Найдите сумму их квадратов
-function findSumOfSquaredNumbers($firstNum, $secondNum) {
+function findSumOfSquaredNumbers($firstNum, $secondNum)
+{
     return $firstNum**2 + $secondNum**2;
 }
 

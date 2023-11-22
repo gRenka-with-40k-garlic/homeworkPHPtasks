@@ -4,7 +4,8 @@
 
 $day = 22;
 
-if ($day >= 1 && $day <= 10) {
+if ($day >= 1 && $day <= 10)
+{
     $decade = 'Первая';
 }else if ($day >= 11 && $day <= 20) {
     $decade = 'Вторая';

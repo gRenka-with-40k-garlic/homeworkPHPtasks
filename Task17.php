@@ -8,9 +8,11 @@
 function WordChoice($number, $Forms): void
 {
     $WordForm = $number . ' ';
-    switch ($number % 10) {
+    switch ($number % 10)
+    {
         case 1:
-            if ($number % 100 != 11) {
+            if ($number % 100 != 11)
+            {
                 $WordForm .= $Forms[0];
             } else {
                 $WordForm .= $Forms[2];
@@ -19,7 +21,8 @@ function WordChoice($number, $Forms): void
         case 2:
         case 3:
         case 4:
-            if ($number % 100 < 10 || $number % 100 > 20) {
+            if ($number % 100 < 10 || $number % 100 > 20)
+            {
                 $WordForm .= $Forms[1];
             } else {
                 $WordForm .= $Forms[2];
@@ -31,7 +34,6 @@ function WordChoice($number, $Forms): void
     }
     echo $WordForm;
 }
-
 $number = 5;
 $Forms = ['яблоко', 'яблока', 'яблок'];
 

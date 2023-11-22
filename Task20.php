@@ -3,12 +3,15 @@
 //Дано число. Разложите его на простые множители.
 //Пример: 12 - это 2 * 2 * 3.
 
-function Decomposition($number) {
+function Decomposition($number)
+{
     $factors = array();
     $divisor = 2;
 
-    while ($number > 1) {
-        if ($number % $divisor == 0) {
+    while ($number > 1)
+    {
+        if ($number % $divisor == 0)
+        {
             $factors[] = $divisor;
             $number /= $divisor;
         } else {

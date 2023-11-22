@@ -15,18 +15,20 @@ $arr = [
     ]
 ];
 
-function getElementFromArray($arr, $string) {
+function getElementFromArray($arr, $string)
+{
     $keys = explode('.', $string);
     $element = $arr;
 
-    foreach ($keys as $key) {
-        if (isset($element[$key])) {
+    foreach ($keys as $key)
+    {
+        if (isset($element[$key]))
+        {
             $element = $element[$key];
         } else {
             return null;
         }
     }
-
     return $element;
 }
 

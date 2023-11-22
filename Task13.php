@@ -6,17 +6,16 @@
 //Каждое слово отделено от другого одним пробелом.
 //Строка: “hello world”
 
-function ReverseWords(string $str) {
+function ReverseWords(string $str)
+{
     $StringWords = explode(' ', $str);
     
-    for($i = 0; $i < count($StringWords) / 2; $i++){
+    for($i = 0; $i < count($StringWords) / 2; $i++)
+    {
         $tmp = $StringWords[$i];
         $StringWords[$i] = $StringWords[count($StringWords) - 1 - $i];
         $StringWords[count($StringWords) - 1 - $i] = $tmp;
     }
-
     return join(' ', $StringWords);
 }
-?>
-
-<h1><?php echo ReverseWords("hello world") ?></h1>
+?><h1><?php echo ReverseWords("hello world") ?></h1>

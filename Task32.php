@@ -5,9 +5,12 @@ $sourceArray = [43, 5, 4, 34, 84, 2, 75, 23, 55, 445, 959];
 
 $resultArray = array();
 
-function FillNewArr ($numArray, $resArr) {
-    foreach ($numArray as $number) {
-        if (in_array('5', str_split(strval($number)))) {
+function FillNewArr ($numArray, $resArr)
+{
+    foreach ($numArray as $number)
+    {
+        if (in_array('5', str_split(strval($number))))
+        {
             array_push($resArr, $number);
         }
     }

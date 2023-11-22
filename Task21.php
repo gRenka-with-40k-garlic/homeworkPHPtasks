@@ -4,10 +4,10 @@
 $numbers = [3, 5, 8];
 $average = 0;
 
-foreach ($numbers as $number) {
+foreach ($numbers as $number)
+{
     $average += $number;
 }
-
 $average /= count($numbers);
 ?>
 

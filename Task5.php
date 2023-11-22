@@ -10,5 +10,5 @@ $b = 10;
 $c = $a - $b;
 $d = 7;
 $result = $c + $d;
-echo $result;
 
+?><h1><?php echo $result; ?></h1>

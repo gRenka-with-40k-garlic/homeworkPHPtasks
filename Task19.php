@@ -5,9 +5,12 @@
 //Пример: числа 12 и 15 имеют НОК 60.
 //Число 60 делится и на 12, и на 15 и это самое минимальное такое число.
 
-function FindNOK($firstNum, $secondNum) {
-    for ($i = 1; $i <= $firstNum * $secondNum; $i++) {
-        if ($i % $firstNum == 0 && $i % $secondNum == 0) {
+function FindNOK($firstNum, $secondNum)
+{
+    for ($i = 1; $i <= $firstNum * $secondNum; $i++)
+    {
+        if ($i % $firstNum == 0 && $i % $secondNum == 0)
+        {
             return $i;
         }
     }

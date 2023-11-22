@@ -2,11 +2,13 @@
 //Преобразуйте строку 'var_test_text' в 'varTestText' .
 // Скрипт, конечно же, должен работать с любыми аналогичными строками.
 
-function UpperCase($string) {
+function UpperCase($string)
+{
     $words = explode('_', $string);
     $UpperString = '';
 
-    foreach ($words as $word) {
+    foreach ($words as $word)
+    {
         $UpperString .= ucfirst($word);
     }
     return lcfirst($UpperString);
@@ -14,6 +16,5 @@ function UpperCase($string) {
 
 $string = 'var_test_text';
 ?>
-
 <h1>Дана строка: <?php echo $string; ?> </h1>
 <h1>Отформатированная строка: <?php echo UpperCase($string); ?> </h1>

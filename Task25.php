@@ -1,7 +1,8 @@
 <?php
 //Дано трехзначное число. Найдите сумму его цифр.
 
-function SumOfDigits($num) {
+function SumOfDigits($num)
+{
     $sum = floor($num / 100) + floor($num / 10) % 10 + $num % 10;
     return $sum;
 }

@@ -18,6 +18,4 @@ $text .= ' хочу';
 $text .= ' знать';
 $text .= ' PHP!';
 
-?>
-
-<h1><?php echo $text; ?></h1>
+?><h1><?php echo $text; ?></h1>

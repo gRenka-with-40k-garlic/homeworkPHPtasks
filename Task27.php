@@ -3,12 +3,14 @@
 //если же это число больше 10 и меньше 30, то выведите ноль,
 //в остальных случаях выведите слово "Ошибка"
 
-function func($number) {
-    if ($number >= 50){
+function CustomFunction($number)
+{
+    if ($number >= 50)
+    {
         return $number ** 2;
-    }else if($number > 10 && $number < 30) {
+    }else if($number > 10 && $number < 30){
         return 0;
-    }else {
+    }else{
         return "Ошибка";
     }
 }
@@ -17,4 +19,4 @@ $num = 70;
 ?>
 
 <h1>Дано число: <?php echo $num; ?></h1>
-<h1>Результат: <?php echo func($num); ?></h1>
+<h1>Результат: <?php echo CustomFunction($num); ?></h1>

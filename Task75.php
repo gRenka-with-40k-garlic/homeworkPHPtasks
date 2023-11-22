@@ -7,8 +7,9 @@
 $arr = ["Коля" => '200',
         "Вася" => '300',
         "Петя" => '400'];
-?>
-<h1><?php foreach ($arr as $key => $value) {
+?><h1><?php
+    foreach ($arr as $key => $value)
+    {
     echo $key . ' - зарплата ' . $value . ' долларов';
     echo "\n";
-    } ?> </h1>>
+    }?></h1>

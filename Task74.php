@@ -3,9 +3,9 @@
 //С помощью цикла foreach выведите на экран столбец ключей и элементов в формате 'green – зеленый'.
 
 $arr = ['green' => 'зеленый', 'red' => 'красный','blue' => 'голубой'];
-?>
-<h1> <?php
-foreach ($arr as $key => $value) {
+?><h1><?php
+    foreach ($arr as $key => $value)
+    {
     echo $key . ' - ' . $value;
     echo "\n";
-} ?> </h1>
+    }?></h1>

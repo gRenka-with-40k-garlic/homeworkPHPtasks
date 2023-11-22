@@ -6,6 +6,7 @@ $array = array(
     'html', 'css', 'php', 'js', 'jq'
 );
 ?>
-<h1> <?php foreach ($array as $i) {
+<h1><?php foreach ($array as $i)
+{
     echo $i . "\n";
-    } ?> </h1>
+}?></h1>

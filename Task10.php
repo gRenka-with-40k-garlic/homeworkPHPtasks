@@ -1,15 +1,18 @@
 <?php
 //Напишите скрипт, который считает количество секунд в часе, в сутках, в месяце.
-function secondsInHours(int $hours) {
+
+function secondsInHours(int $hours)
+{
     return $hours * 60 * 60;
 }
-
-function secondsInDays(int $days) {
+function secondsInDays(int $days)
+{
     return $days * 24 * 60 * 60; 
 }
-
-function secondsInMonth(int $daysInMonth) {
-    if (29 <= $daysInMonth && $daysInMonth <= 31){
+function secondsInMonth(int $daysInMonth)
+{
+    if (29 <= $daysInMonth && $daysInMonth <= 31)
+    {
         return $daysInMonth * 24 * 60 * 60;
     }
     return "Не может быть \"" . $daysInMonth . "\" " . "дней в месяцe";

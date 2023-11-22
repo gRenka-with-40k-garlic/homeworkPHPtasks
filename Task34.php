@@ -8,8 +8,10 @@ $array = [1, '', 2, '', 3];
 <h1>Изначальный массив: <?php print_r($array); ?></h1>
 
 <?php
-for ($i = 0; $i < count($array); $i++) {
-    if ($array[$i] == '') {
+for ($i = 0; $i < count($array); $i++)
+{
+    if ($array[$i] == '')
+    {
         unset($array[$i]);
     }
 }

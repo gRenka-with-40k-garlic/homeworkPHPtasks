@@ -5,7 +5,6 @@
 function MultipliFunc ($numString)
 {
     $numString = trim($numString);
-
     $resultString = "";
     $numArray = explode(" ", $numString);
 
@@ -13,7 +12,8 @@ function MultipliFunc ($numString)
     {
         $tmpMultiplication = 1;
 
-        for ($i = 0; $i < count($numArray); $i++) {
+        for ($i = 0; $i < count($numArray); $i++)
+        {
             if ($num != $numArray[$i])
             {
                 $tmpMultiplication *= $numArray[$i];
@@ -22,7 +22,6 @@ function MultipliFunc ($numString)
         $resultString .= $tmpMultiplication . " ";
     }
     $resultString = trim($resultString);
-
     return $resultString;
 }
 

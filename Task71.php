@@ -3,7 +3,8 @@
 //Если это так – выведите 'есть', если не так – 'нет'.
 function DotsCheck($string): string
 {
-    if (strpos($string, "..") !== false) {
+    if (strpos($string, "..") !== false)
+    {
         return 'Двоеточие есть';
     } else {
         return 'Двоеточия нет';

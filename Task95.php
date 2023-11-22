@@ -7,8 +7,10 @@
 function flatten($array): array
 {
     $result = [];
-    foreach ($array as $element) {
-        if (is_array($element)) {
+    foreach ($array as $element)
+    {
+        if (is_array($element))
+        {
             $result = array_merge($result, flatten($element));
         } else {
             $result[] = $element;

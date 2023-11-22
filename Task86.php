@@ -9,6 +9,5 @@
 if (!isset($_COOKIE['id_count'])) $id_count = 0;
 else $id_count = $_COOKIE['id_count'];
 $id_count++;
-setcookie('id_count', $id_count, 0x6FFFFFFF); ?>
-<h1> <?php echo 'Страница посещена ' . $id_count . ' раз'; ?>
-</h1>
+setcookie('id_count', $id_count, 0x6FFFFFFF);
+?><h1><?php echo 'Страница посещена ' . $id_count . ' раз' . ' Дата последнего посещения: ' . date("Y-m-d"); ?></h1>

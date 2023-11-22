@@ -24,7 +24,7 @@
     <?php endif; ?>
 
     <?php if (isset($_GET["age"])): ?>
-        <h1>Возвраст: <?php echo $_GET["age"] ?></h1>
+        <h1>Возраст: <?php echo $_GET["age"] ?></h1>
     <?php endif; ?>
 
     <?php if (isset($_GET["City"])): ?>

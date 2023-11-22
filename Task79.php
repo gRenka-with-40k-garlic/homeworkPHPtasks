@@ -1,8 +1,10 @@
 <?php
+//Пользователь вводит названия городов через пробел.
+//Переставьте названия так, чтобы названия были упорядочены по алфавиту.
+
 mb_internal_encoding("UTF-8");
 
-function mb_ucfirst($text): string
-{
+function mb_ucfirst($text) {
     return mb_strtoupper(mb_substr($text, 0, 1)) . mb_substr($text, 1);
 }
 ?>

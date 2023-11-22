@@ -33,5 +33,4 @@ if (key_exists('cities', $_POST) && $_POST['cities'] > 0)
     sort($citiesArray);
 
     echo "<h2>" . join(' ', $citiesArray) . "<h2>";
-}
-?>
+} ?>

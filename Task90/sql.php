@@ -1,5 +1,5 @@
 <?php
-$db_connection = new PDO('sqlite:D:\Programs\Projects\php\phpHomework\90\school.sqlite');
+$db_connection = new PDO('sqlite:P:\gennady_documents\Coding tools\php_projects\homeworkPHPtasks\Task90\school.sqlite');
 
 function create_table()
 {
@@ -7,11 +7,11 @@ function create_table()
     try {
         return $db_connection->query(
             'CREATE TABLE IF NOT EXISTS student_credentials(
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                last_name VARCHAR NOT NULL,
-                class INTEGER NOT NULL,
-                year_of_admission INTEGER NOT NULL,
-                instructions TEXT);'
+                   id INTEGER PRIMARY KEY AUTOINCREMENT,
+                   last_name VARCHAR NOT NULL,
+                   class INTEGER NOT NULL,
+                   year_of_admission INTEGER NOT NULL,
+                   instructions TEXT);'
         );
     } catch (PDOException $e) {
         echo "fuck!@*";
@@ -32,7 +32,7 @@ class StudentCredentialsRepositoty
     {
         $query = $this->db_connection->prepare(
             'INSERT INTO student_credentials(last_name, class, year_of_admission, instructions)
-            VALUES(:last_name, :class, :year_of_admission, :instructions);'
+                   VALUES(:last_name, :class, :year_of_admission, :instructions);'
         );
 
         return $query->execute(

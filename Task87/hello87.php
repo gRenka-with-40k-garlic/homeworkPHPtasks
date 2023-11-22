@@ -3,7 +3,8 @@
 //При заходе на hello.php поприветствуйте пользователя фразой "Привет, %Имя%!" .-->
 
 <?php
-if(isset($_POST['name'])){
+if(isset($_POST['name']))
+{
     $name = $_POST['name'];
     setcookie('name', $name, time() + (86400 * 30), "/");
     echo "Hello, $name!";

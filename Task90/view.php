@@ -1,4 +1,4 @@
-<?php require_once 'D:\Programs\Projects\php\phpHomework\90\sql.php'; ?>
+<?php require_once 'P:\gennady_documents\Coding tools\php_projects\homeworkPHPtasks\Task90\sql.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <header><a href="/90/view.php">База данных</a> <a href="/90/index.php">Добавить данные</a></header>
+    <header><a href="/Task90/view.php">База данных</a> <a href="/Task90/index.php">Добавить данные</a></header>
     <hr/>
 
     <?php //var_dump($_POST) . "\n"; ?>

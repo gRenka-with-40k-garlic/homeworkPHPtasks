@@ -92,20 +92,15 @@
 <button onclick="document.location.href = 'Task84.php';">Задание 84</button><br>
 <button onclick="document.location.href = 'Task85.php';">Задание 85</button><br>
 <button onclick="document.location.href = 'Task86.php';">Задание 86</button><br>
-<button onclick="document.location.href = 'Task87.php';">Задание 87</button><br>
+<button onclick="document.location.href = 'Task87/index87.php';">Задание 87</button><br>
 <button onclick="document.location.href = 'Task88.php';">Задание 88</button><br>
 <button onclick="document.location.href = 'Task89.php';">Задание 89</button><br>
-<button onclick="document.location.href = 'Task90.php';">Задание 90</button><br>
+<button onclick="document.location.href = 'Task90/index.php';">Задание 90</button><br>
 <button onclick="document.location.href = 'Task91Task90.php';">Задание 91</button><br>
 <button onclick="document.location.href = 'Task92.php';">Задание 92</button><br>
 <button onclick="document.location.href = 'Task93.php';">Задание 93</button><br>
 <button onclick="document.location.href = 'Task94Task19.php';">Задание 94</button><br>
 <button onclick="document.location.href = 'Task95.php';">Задание 95</button><br>
-
-
-
-
-
 
 </body>
 </html>

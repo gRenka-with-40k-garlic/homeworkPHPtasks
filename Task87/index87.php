@@ -3,7 +3,7 @@
 //При заходе на hello.php поприветствуйте пользователя фразой "Привет, %Имя%!" .-->
 
 <form action="hello87.php" method="post">
-    <label for="name">КАК ТЕБЯ ЗОВУТ БРО:</label>
+    <label for="name">Введите ваше имя:</label>
     <input type="text" id="name" name="name">
     <input type="submit" value="Submit">
 </form>

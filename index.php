@@ -8,23 +8,24 @@
     <meta charset="UTF-8">
     <title>HomeworkTasks</title>
 
+<!--мне резко стало лень морочиться с дизайном-->
+<!--    <style>-->
+<!--        button-->
+<!--        {-->
+<!--            text-align: center;-->
+<!--            transition: 0.5s;-->
+<!--            background-size: 200% auto;-->
+<!--            color: white;-->
+<!--            box-shadow: 0 0 20px #eee;-->
+<!--            border-radius: 5px;-->
+<!--            background-image: linear-gradient(to right, #00FFFF 0%, #7B68EE 51%, #0B63F6 100%);-->
+<!--        }-->
+<!--        button:hover-->
+<!--        {-->
+<!--            background-position: right center;-->
+<!--        }-->
+<!--    </style>-->
 
-    <style>
-        button
-        {
-            text-align: center;
-            transition: 0.5s;
-            background-size: 200% auto;
-            color: white;
-            box-shadow: 0 0 20px #eee;
-            border-radius: 5px;
-            background-image: linear-gradient(to right, #00FFFF 0%, #7B68EE 51%, #0B63F6 100%);
-        }
-        button:hover
-        {
-            background-position: right center;
-        }
-    </style>
 </head>
 <body>
 
@@ -114,7 +115,7 @@
 <button onclick="document.location.href = 'Task85.php';">Задание 85</button><br>
 <button onclick="document.location.href = 'Task86.php';">Задание 86</button><br>
 <button onclick="document.location.href = 'Task87/index87.php';">Задание 87</button><br>
-<button onclick="document.location.href = 'Task88.php';">Задание 88</button><br>
+<button onclick="document.location.href = 'Task88/Task88firstName.php';">Задание 88</button><br>
 <button onclick="document.location.href = 'Task89.php';">Задание 89</button><br>
 <button onclick="document.location.href = 'Task90/index.php';">Задание 90</button><br>
 <button onclick="document.location.href = 'Task91Task90.php';">Задание 91</button><br>

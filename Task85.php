@@ -10,7 +10,6 @@ function substitutionBlock($string, $blockIndex, $substitution): string
     $blocks[$blockIndex+1] = $substitution;
     return implode('/', $blocks);
 }
-
 $string = '/aaa/222/we33/qqq/';
-?>
-<h1> <?php echo substitutionBlock($string, 2, "!"); ?> </h1>
+
+?><h1><?php echo substitutionBlock($string, 2, "!"); ?></h1>

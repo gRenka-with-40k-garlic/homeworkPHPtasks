@@ -10,10 +10,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TASK90</title>
 </head>
 <body>
-    <header><a href="/Task90/view.php">База данных</a> <a href="/Task90/index.php">Добавить данные</a></header>
+    <header>
+        <a href="/Task90/view.php">База данных</a>
+        <a href="/Task90/index.php">Добавить данные</a>
+    </header>
     <hr/>
     <h1>Учётные сведения об учащихся</h1>
     <form action="/Task90/view.php" method="post">

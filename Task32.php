@@ -2,7 +2,6 @@
 //Дан массив с числами. Запишите в новый массив только те числа, в которых есть цифра 5
 
 $sourceArray = [43, 5, 4, 34, 84, 2, 75, 23, 55, 445, 959];
-
 $resultArray = array();
 
 function FillNewArr ($numArray, $resArr)
@@ -15,8 +14,7 @@ function FillNewArr ($numArray, $resArr)
         }
     }
     return $resArr;
-}
-?>
+}?>
 
 <h1>Исходный массив: <?php print_r($sourceArray); ?></h1>
 <h1>Массив с числами в которых есть цифра 5: <?php print_r(FillNewArr($sourceArray, $resultArray)); ?></h1>

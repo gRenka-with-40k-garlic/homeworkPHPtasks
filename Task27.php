@@ -14,7 +14,6 @@ function CustomFunction($number)
         return "Ошибка";
     }
 }
-
 $num = 70;
 ?>
 

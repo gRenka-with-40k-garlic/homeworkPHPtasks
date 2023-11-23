@@ -26,6 +26,6 @@ $var -= 1;
 //rewritten Task12
 $var = 10;
 
-$var++;
-$var++;
-$var--;
+++$var;
+++$var;
+--$var;

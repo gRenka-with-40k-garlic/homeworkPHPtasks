@@ -15,7 +15,6 @@ function FindNOK($firstNum, $secondNum)
         }
     }
 }
-
 $firstNumber = 3;
 $secondNumber = 2;
 ?>

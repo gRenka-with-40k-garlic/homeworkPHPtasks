@@ -16,5 +16,6 @@ function UpperCase($string)
 
 $string = 'var_test_text';
 ?>
+
 <h1>Дана строка: <?php echo $string; ?> </h1>
 <h1>Отформатированная строка: <?php echo UpperCase($string); ?> </h1>

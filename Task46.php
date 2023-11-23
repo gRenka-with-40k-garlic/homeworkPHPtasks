@@ -32,6 +32,6 @@ function getElementFromArray($arr, $string)
     return $element;
 }
 
-?> <h1><?php echo getElementFromArray($arr, "string1.string2.string3") ?></h1>
+?><h1><?php echo getElementFromArray($arr, "string1.string2.string3") ?></h1>
 
 

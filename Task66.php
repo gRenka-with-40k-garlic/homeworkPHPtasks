@@ -5,7 +5,6 @@
 $string = "http://www.youtube.com/watch?v=dQw4w9WgXcQ";
 ?>
 
-
 <h1>Дана строка: <?php echo $string; ?></h1>
 <h1>Она начинается с http:// ?</h1>
 <?php if (str_starts_with($string, "http://")): ?>

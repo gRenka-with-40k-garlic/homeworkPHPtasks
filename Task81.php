@@ -6,5 +6,5 @@ $string = '12345 67890';
 $numbers = explode(' ', $string);
 $reversNumber = array_map('strrev', $numbers);
 $reversString = implode(' ', $reversNumber);
-?>
-<h1> <?php echo $reversString; ?> </h1>
+
+?><h1> <?php echo $reversString; ?> </h1>

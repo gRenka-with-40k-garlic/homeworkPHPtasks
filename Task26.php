@@ -11,7 +11,6 @@ function EvenOdd($num)
         return $num * 3;
     }
 }
-
 $num = 8;
 ?>
 

@@ -19,8 +19,7 @@ for ($i = 1; $i < count($numbers); $i++)
     {
         $maxDifference = $difference;
     }
-}
-?>
+}?>
 
 <h1>Дана строка: <?php echo $input; ?></h1>
 <h1>Максимальная разница чисел: <?php echo $maxDifference; ?></h1>

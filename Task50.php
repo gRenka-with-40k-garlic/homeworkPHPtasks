@@ -16,6 +16,6 @@ if (in_array($month, [12, 1, 2]))
 } else if (in_array($month, [9, 10, 11])) {
     echo '<h1>Осень</h1>';
 } else {
-    echo "<h2>Invalid \"\$month\" variable value: {$month} </h2>";
+    echo "<h2>Значение\"\$month\" не корректно: {$month} </h2>";
 }
 

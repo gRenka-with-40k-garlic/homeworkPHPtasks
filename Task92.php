@@ -24,5 +24,5 @@ $str = "съешь ещё этих мягких французских було�
 $maxLen = 50;
 $cuttingString = cutString($str, $maxLen);
 
-?> <h1> <?php echo $cuttingString; ?> </h1>
+?><h1><?php echo $cuttingString; ?></h1>
 

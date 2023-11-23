@@ -8,6 +8,4 @@ $arr[] = 3;
 $arr[] = 4;
 $arr[] = 5;
 
-?>
-
-<h1><?php print_r($arr); ?></h1>
+?><h1><?php print_r($arr); ?></h1>

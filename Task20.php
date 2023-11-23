@@ -27,7 +27,7 @@ $result = Decomposition($number);
 
 <h1>Дано число: <?php echo $number; ?></h1>
 <h1>Простые делители:
-<?php foreach ($result as $factor): ?>
-    <?php echo "$factor "; ?>
-<?php endforeach; ?>
+    <?php foreach ($result as $factor): ?>
+        <?php echo "$factor "; ?>
+    <?php endforeach; ?>
 </h1>

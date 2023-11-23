@@ -25,6 +25,4 @@ while ($counter <= $nesting)
     $counter = $counter + 1;
 }
 unset($arr[1]);
-?>
-
-<h1><?php echo json_encode(array_values($arr)) ?></h1>
+?><h1><?php echo json_encode(array_values($arr)) ?></h1>

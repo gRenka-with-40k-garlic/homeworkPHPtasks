@@ -4,10 +4,12 @@
 
 mb_internal_encoding("UTF-8");
 
-function mb_ucfirst($text) {
+function mb_ucfirst($text)
+{
     return mb_strtoupper(mb_substr($text, 0, 1)) . mb_substr($text, 1);
 }
 ?>
+
     <form action="Task79.php" method="post">
         <input type="text" name="cities" placeholder="Введите названия городов"/>
         <input type="submit" value="Confirm"/>
@@ -33,4 +35,4 @@ if (key_exists('cities', $_POST) && $_POST['cities'] > 0)
     sort($citiesArray);
 
     echo "<h2>" . join(' ', $citiesArray) . "<h2>";
-} ?>
+}?>

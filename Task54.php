@@ -3,7 +3,6 @@
 //То есть сложите как числа первый символ строки, второй и третий.
 
 $numbersString = '123';
-
 $sum = 0;
 
 foreach (str_split($numbersString) as $digitChar)

@@ -14,9 +14,8 @@ if ($num == 1) {
 }else if ($num == 4){
     $result = 'Осень';
 }else {
-    echo '<h1>invalid \'$num\' variable value!</h1>';
-}
-?>
+    echo '<h1>Значение \'$num\' не коректно</h1>';
+}?>
 
 <h1>$num = <?php echo $num; ?></h1>
 

@@ -5,6 +5,4 @@
 //Выведите с его помощью слово 'azul' .
 
 $arr = ['sp' => ['azul', 'rojo', 'verde'], 'en' => ['blue', 'red', 'green']];
-?>
-
-<h1><?php echo $arr['sp'][0]; ?></h1>
+?><h1><?php echo $arr['sp'][0]; ?></h1>

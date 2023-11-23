@@ -6,5 +6,4 @@
 $string = '12345678';
 $numbers = str_split($string, 2);
 $result = array_sum($numbers);
-?>
-<h1> <?php echo $result; ?> </h1>
+?><h1><?php echo $result; ?></h1>

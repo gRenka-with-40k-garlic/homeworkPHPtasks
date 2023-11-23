@@ -10,5 +10,4 @@ if(isset($_POST['name']))
     echo "Hello, $name!";
 } else {
     echo "Hello, guest!";
-}
-?>
+}?>

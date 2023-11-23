@@ -4,7 +4,6 @@
  Далее это число увеличивается на 10%, если выбран Египет, и на 12%, если выбрана Италия.
  И далее это число уменьшается на 5%, если указана скидка.-->
 
-
 <form method="post">
     <label>Страна для отдыха</label>
     <select name="country">
@@ -26,7 +25,6 @@
         if ($_POST['days'] > 0)
         {
             $price = intval($_POST['days'] * 400);
-
             if ($_POST['country'] == 'Египет')
             {
                 $price += $price * 0.1;
@@ -35,7 +33,6 @@
             {
                 $price += $price * 0.12;
             }
-
             if (key_exists('discount', $_POST))
             {
                 $price -= $price * 0.05;

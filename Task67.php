@@ -4,6 +4,7 @@
 
 $string = "img.png";
 ?>
+
 <h1>Дана строка: <?php echo $string; ?></h1>
 <h1>Она оканчивается на .png?</h1>
 <?php if (str_ends_with($string, ".png")): ?>

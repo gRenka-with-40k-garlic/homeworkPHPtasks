@@ -3,7 +3,8 @@
 
 $i = 0;
 $array = [44, 585, 4405, 6337, 983, 99];
-?><h1><?php foreach ($array as $number)
+?>
+<h1><?php foreach ($array as $number)
 {
         if (str_contains((string)$number, '3'))
         {

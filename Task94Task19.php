@@ -1,5 +1,6 @@
 <?php
 //это уже было в Task19
+
 //Сделайте функцию, которое будет принимать 2 числа,
 //а возвращать их НОК - наименьшее общее кратное.
 //НОК двух чисел – это самое маленькое число, которое делится и на одно,
@@ -16,9 +17,7 @@ function FindNOK($firstNum, $secondNum)
         }
     }
 }
-
 $firstNumber = 3;
 $secondNumber = 2;
 ?>
-
 <h1>Наименьшее общее кратное чисел <?php echo $firstNumber; ?> и <?php echo $secondNumber; ?> - <?php echo FindNOK($firstNumber, $secondNumber) ?></h1>

@@ -4,8 +4,8 @@
 
 $array = array(
     'html', 'css', 'php', 'js', 'jq'
-);
-?>
+); ?>
+
 <h1><?php foreach ($array as $i)
 {
     echo $i . "\n";

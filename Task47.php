@@ -18,6 +18,5 @@ function iterateArray($arr)
 }
 
 $array = array( array( 1, 2, 3, ), array( array(4, 5, array(6, 7, 7)), 9, 10, ), );
-
 iterateArray($array);
 

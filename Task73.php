@@ -9,6 +9,6 @@ $array = [1, 2, 3, 4, 5];
 foreach ($array as $i)
 {
     $result = $result + $i;
-}
-?>
+}?>
+
 <h1> <?php echo $result; ?> </h1>
